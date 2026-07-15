@@ -1,6 +1,6 @@
-# The Earth Will Hear Story Bible
+# The Earth Will Hear — Story Bible
 
-> **The Official Canon of the Novel "The Earth Will Hear"**
+> **The official canonical reference for the historical-literary novel _The Earth Will Hear_ (زمین خواهد شنید).**
 
 ---
 
@@ -8,250 +8,185 @@
 
 **The Earth Will Hear Story Bible** is the official reference repository for the fictional world of the Persian historical-literary novel **The Earth Will Hear** (*زمین خواهد شنید*), written by **Daryoush Alipour**.
 
-This repository documents every canonical aspect of the novel's universe, including its history, geography, characters, events, locations, objects, symbols, culture, and production references.
+Rather than retelling the novel, this repository documents the novel's canonical world in a structured form for consistency, research, and future adaptations.
 
-Unlike the novel itself, this repository is intended to preserve the internal consistency of the fictional world and serve as the authoritative source for future books, research, translations, illustrations, films, games, and AI-generated content.
-
----
-
-# Goals
-
-This project aims to create a complete Story Bible that can be used by:
+It serves as the authoritative reference for:
 
 - Readers
 - Editors
 - Translators
-- Historians
 - Researchers
 - Illustrators
 - Filmmakers
-- Game Developers
-- AI Systems
+- Game developers
+- AI-assisted production
 
 ---
 
 # Repository Structure
 
 ```
-The-Earth-Will-Hear-Story-Bible/
+zamin-story-bible/
 
 ├── README.md
 ├── LICENSE
-├── CHANGELOG.md
 │
-├── V00_Foundation/
+├── 00-Project-Charter.md
+├── 01-Writing-Standards.md
+├── 02-Naming-Conventions.md
 │
-├── V01_World/
+├── files/
+│   ├── V00_README_Index.md
+│   ├── V01_World.md
+│   ├── V02_Characters.md
+│   ├── V03_Events.md
+│   ├── V04_Locations.md
+│   ├── V05_Objects.md
+│   ├── V06_Timeline.md
+│   ├── V07_Culture.md
+│   ├── V08_Professions.md
+│   ├── V09_Religion.md
+│   └── V10_VisualDesign.md
 │
-├── V02_Characters/
+├── files2/
+│   └── Production_Bible/
+│       ├── AI/
+│       ├── Characters/
+│       ├── Film/
+│       ├── Locations/
+│       ├── Objects/
+│       ├── Prompts/
+│       ├── Shots/
+│       ├── Visual/
+│       ├── README_Production_Bible.md
+│       └── Style_Guide.md
 │
-├── V03_Events/
-│
-├── V04_Locations/
-│
-├── V05_Timeline/
-│
-├── V06_Objects/
-│
-├── V07_Symbols/
-│
-├── V08_Film/
-│
-├── V09_AI/
-│
-├── V10_Storyboard/
-│
-└── V11_Research/
+└── archive/
 ```
 
 ---
 
-# Volumes
+# Repository Organization
 
-## V00 — Foundation
+## Foundation
 
-Project standards, writing rules, naming conventions and project governance.
+Contains the project's governance documents:
+
+- Project Charter
+- Writing Standards
+- Naming Conventions
+
+These files define the rules that every future document must follow.
 
 ---
 
-## V01 — World Bible
+## Story Bible (`files/`)
 
-The fictional world.
+The Story Bible contains the canonical information extracted from the novel under a strict **Zero Invention Policy**.
 
-Includes:
+Current volumes include:
 
-- Geography
-- History
-- Government
-- Economy
-- Society
+- World
+- Characters
+- Events
+- Locations
+- Objects
+- Timeline
+- Culture
+- Professions
 - Religion
-- Daily Life
-- Architecture
-- Clothing
-- Music
+- Visual Design
+
+These documents are descriptive rather than interpretive.
 
 ---
 
-## V02 — Character Bible
+## Production Bible (`files2/`)
 
-Complete documentation for every character appearing in the novel.
+The Production Bible converts the canonical Story Bible into production-ready documentation.
 
-Each character receives an individual profile.
+It includes:
 
----
+- Character production sheets
+- Location sheets
+- Object sheets
+- Visual references
+- Film continuity
+- AI reference sheets
+- Prompt templates
+- Style guide
 
-## V03 — Event Bible
-
-Every significant event in chronological order.
-
----
-
-## V04 — Location Bible
-
-Villages
-
-Cities
-
-Temples
-
-Mountains
-
-Roads
-
-Sacred places
+This documentation is intended for illustration, filmmaking, animation, games, and AI-assisted workflows.
 
 ---
 
-## V05 — Timeline Bible
+## Archive
 
-Complete chronological timeline.
+Contains retired drafts, experimental material, and superseded documents.
 
----
-
-## V06 — Object Bible
-
-Important objects including
-
-- Harp
-- Scrolls
-- Seals
-- Weapons
-- Agricultural tools
-
----
-
-## V07 — Symbol Bible
-
-Recurring literary and visual symbols.
-
----
-
-## V08 — Film Bible
-
-Reference documentation for cinematic adaptation.
-
----
-
-## V09 — AI Bible
-
-AI prompts
-
-Image consistency
-
-Video generation
-
-Character consistency
-
----
-
-## V10 — Storyboard
-
-Shot-by-shot breakdown of the novel.
-
----
-
-## V11 — Research
-
-Historical references
-
-Academic notes
-
-Comparative studies
-
-Bibliography
+Archived material is **not canonical**.
 
 ---
 
 # Canon Policy
 
-The Story Bible distinguishes between three kinds of information.
+This repository follows a strict **Zero Invention Policy**.
 
-## Canon
+The Story Bible distinguishes between:
 
-Information directly extracted from the published novel.
+### Canon
+
+Information explicitly extracted from the novel.
+
+### Production Documentation
+
+Technical documentation derived from canonical information.
+
+### Archive
+
+Historical drafts retained only for reference.
+
+Unknown information remains **UNKNOWN**.
+
+No missing information is inferred.
 
 ---
 
-## Analysis
+# Project Principles
 
-Literary or historical interpretation.
-
----
-
-## Production Notes
-
-Information intended for adaptation into visual media.
+- The novel is the primary creative work.
+- The Story Bible preserves canonical facts.
+- The Production Bible supports adaptation.
+- The Archive preserves project history.
 
 ---
 
-# Naming Standard
+# Intended Uses
 
-Every entity receives a permanent identifier.
+This repository is designed to support:
 
-Examples
-
-```
-CHR-001
-```
-
-Character
-
-```
-LOC-001
-```
-
-Location
-
-```
-EV-001
-```
-
-Event
-
-```
-OBJ-001
-```
-
-Object
-
-```
-SYM-001
-```
-
-Symbol
+- Future novels
+- Academic research
+- Translation projects
+- Historical consultation
+- Visual development
+- Film production
+- Television adaptation
+- Video games
+- Educational materials
+- AI-assisted creative production
 
 ---
 
 # Versioning
 
-This repository follows Semantic Versioning.
+Semantic Versioning
 
 ```
 Major.Minor.Patch
 ```
 
-Example
+Example:
 
 ```
 1.0.0
@@ -265,40 +200,26 @@ See the LICENSE file.
 
 ---
 
-# Contributing
-
-This repository is maintained by the author.
-
-Future collaboration will follow CONTRIBUTING.md.
-
----
-
 # Author
 
 **Daryoush Alipour**
 
-Author of
-
-**The Earth Will Hear**
+Author of *The Earth Will Hear* (زمین خواهد شنید)
 
 ---
 
 # Vision
 
-The long-term vision of this project is to establish one of the most comprehensive Story Bibles created for a Persian historical novel.
+The long-term goal of this project is to establish a comprehensive, version-controlled canonical reference for a Persian historical-literary universe.
 
-The repository is designed to support future novels, translations, illustrations, films, television series, games, educational material, and AI applications while preserving the internal consistency of the fictional universe.
-
----
-
-# Status
-
-🟢 Active Development
+By separating the novel, the Story Bible, and the Production Bible, the project aims to provide a stable foundation for future creative and scholarly work while preserving internal consistency.
 
 ---
 
 # Repository Philosophy
 
-> *The novel tells the story.*
+> **The novel tells the story.**
 
-> *The Story Bible preserves the world.*
+> **The Story Bible preserves the canon.**
+
+> **The Production Bible prepares the world for adaptation.**
